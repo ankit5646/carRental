@@ -2,14 +2,14 @@
 
 # About the project
 
-  <p>A <b>car rental</b> website is an online platform that allows users to rent cars for personal or business use. The website provides an easy-to-use interface for searching, comparing, and reserving cars from a wide selection of vehicles that vary in make, model, size, and price.</p>
+  <p>A <b>car rentals</b> website is an online platform that allows users to rent cars for personal or business use. The website provides an easy-to-use interface for searching, comparing, and reserving cars from a wide selection of vehicles that vary in make, model, size, and price.</p>
 
-👉 Live Demo: <a href='https://car-rental-pcexwfwvp-devrahuls.vercel.app/'>Live Demo</a>
+👉 Live Demo: SOON.......Live Demo</a>
 
 <h3>Build with:</h3>
 
 » Sass / Scss <br>
-» React JS
+» React JS / React Router Dom 
 
 
 
@@ -84,3 +84,9 @@ The project includes additional scripts that you can run using the `npm run` com
 ## Conclusion
 
 You should now have the React project set up on your local machine. Feel free to explore and modify the code to meet your requirements. If you encounter any issues, please refer to the project's documentation or seek support from the project's maintainers.
+
+
+## Made By:
+
+ 
+<a href="https://github.com/ankit5646">Ankit Yadav</a> & <a href="https://github.com/ankitpurbey">Ankit Kumar</a>
