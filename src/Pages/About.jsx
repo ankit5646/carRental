@@ -22,11 +22,7 @@ function About() {
               <h3>About Company</h3>
               <h2>You start the engine and your adventure begins</h2>
               <p>
-                Certain but she but shyness why cottage. Guy the put instrument
-                sir entreaties affronting. Pretended exquisite see cordially the
-                you. Weeks quiet do vexed or whose. Motionless if no to
-                affronting imprudence no precaution. My indulged as disposal
-                strongly attended.
+              Welcome to Car rentals, your trusted partner for convenient and affordable car rentals. Whether for business or leisure, we offer a wide range of well-maintained vehicles to suit your needs. Enjoy a hassle-free booking experience and excellent customer service with us.
               </p>
               <div className="about-main__text__icons">
                 <div className="about-main__text__icons__box">
@@ -60,10 +56,10 @@ function About() {
         <div className="book-banner__overlay"></div>
         <div className="container">
           <div className="text-content">
-            <h2>Book a car by getting in touch with us</h2>
+            <h2>Car booking is just a call away</h2>
             <span>
               <i className="fa-solid fa-phone"></i>
-              <h3>(123) 456-7869</h3>
+              <h3>(+91) 8527454525</h3>
             </span>
           </div>
         </div>

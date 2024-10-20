@@ -3,7 +3,7 @@ import { useState } from "react";
 function CarBox({ data, carID }) {
   const [carLoad, setCarLoad] = useState(true);
   return (
-    <>
+    <>  
       {data[carID].map((car, id) => (
         <div key={id} className="box-cars">
           {/* car */}
@@ -19,7 +19,7 @@ function CarBox({ data, carID }) {
           {/* description */}
           <div className="pick-description">
             <div className="pick-description__price">
-              <span>${car.price}</span>/ rent per day
+              <span>₹{car.price}</span>/ rent per day
             </div>
             <div className="pick-description__table">
               <div className="pick-description__table__col">
@@ -28,7 +28,7 @@ function CarBox({ data, carID }) {
               </div>
 
               <div className="pick-description__table__col">
-                <span>Mark</span>
+                <span>Badge</span>
                 <span>{car.mark}</span>
               </div>
 

@@ -39,7 +39,8 @@ function Hero() {
             <div className="hero-content__text">
               <h4>Plan your trip now</h4>
               <h1>
-                Save <span>big</span> with our car rental
+                {/* Save <span>big</span> with our car rental */}
+                Drive <span> More </span>, Save <span>Big </span>!
               </h1>
               <p>
                 Rent the car of your dreams. Unbeatable prices, unlimited miles,
@@ -51,11 +52,11 @@ function Hero() {
                   className="hero-content__text__btns__book-ride"
                   to="/"
                 >
-                  Book Ride &nbsp; <i className="fa-solid fa-circle-check"></i>
+                  Book Ride &nbsp; <i className="fa-solid fa-circle-check"></i>  {/* react icon */}
                 </Link>
                 <Link className="hero-content__text__btns__learn-more" to="/">
-                  Learn More &nbsp; <i className="fa-solid fa-angle-right"></i>
-                </Link>
+                  Learn More &nbsp; <i className="fa-solid fa-angle-right"></i>  {/* react icon */}
+                </Link> 
               </div>
             </div>
 
@@ -73,7 +74,7 @@ function Hero() {
           onClick={scrollToTop}
           className={`scroll-up ${goUp ? "show-scroll" : ""}`}
         >
-          <i className="fa-solid fa-angle-up"></i>
+          <i className="fa-solid fa-angle-up"></i>  {/* react icon */}
         </div>
       </section>
     </>

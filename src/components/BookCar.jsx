@@ -162,7 +162,7 @@ function BookCar() {
         <div className="container">
           <div className="book-content">
             <div className="book-content__box">
-              <h2>Book a car</h2>
+              <h2>Book your car</h2>
 
               <p className="error-message">
                 All fields required! <i className="fa-solid fa-xmark"></i>
@@ -170,13 +170,13 @@ function BookCar() {
 
               <p className="booking-done">
                 Check your email to confirm an order.{" "}
-                <i onClick={hideMessage} className="fa-solid fa-xmark"></i>
+                <i onClick={hideMessage} className="fa-solid fa-xmark"></i>  {/* react icon */}
               </p>
 
               <form className="box-form">
                 <div className="box-form__car-type">
                   <label>
-                    <i className="fa-solid fa-car"></i> &nbsp; Select Your Car
+                    <i className="fa-solid fa-car"></i> &nbsp; Select Your Car  {/* react icon */}
                     Type <b>*</b>
                   </label>
                   <select value={carType} onChange={handleCar}>
@@ -194,7 +194,7 @@ function BookCar() {
 
                 <div className="box-form__car-type">
                   <label>
-                    <i className="fa-solid fa-location-dot"></i> &nbsp; Pick-up{" "}
+                    <i className="fa-solid fa-location-dot"></i> &nbsp; Pick-up{" "}  {/* react icon */}
                     <b>*</b>
                   </label>
                   <select value={pickUp} onChange={handlePick}>
@@ -209,7 +209,7 @@ function BookCar() {
 
                 <div className="box-form__car-type">
                   <label>
-                    <i className="fa-solid fa-location-dot"></i> &nbsp; Drop-off{" "}
+                    <i className="fa-solid fa-location-dot"></i> &nbsp; Drop-off{" "}  {/* react icon */}
                     <b>*</b>
                   </label>
                   <select value={dropOff} onChange={handleDrop}>
@@ -224,7 +224,7 @@ function BookCar() {
 
                 <div className="box-form__car-time">
                   <label htmlFor="picktime">
-                    <i className="fa-regular fa-calendar-days "></i> &nbsp;
+                    <i className="fa-regular fa-calendar-days "></i> &nbsp;  {/* react icon */}
                     Pick-up <b>*</b>
                   </label>
                   <input
@@ -237,7 +237,7 @@ function BookCar() {
 
                 <div className="box-form__car-time">
                   <label htmlFor="droptime">
-                    <i className="fa-regular fa-calendar-days "></i> &nbsp;
+                    <i className="fa-regular fa-calendar-days "></i> &nbsp;  {/* react icon */}
                     Drop-off <b>*</b>
                   </label>
                   <input
@@ -258,12 +258,12 @@ function BookCar() {
       </section>
 
       {/* modal ------------------------------------ */}
-
+      {/* Tnis part can be improve further by adding more checks and messages on error */}
       <div className={`booking-modal ${modal ? "active-modal" : ""}`}>
         {/* title */}
         <div className="booking-modal__title">
           <h2>Complete Reservation</h2>
-          <i onClick={openModal} className="fa-solid fa-xmark"></i>
+          <i onClick={openModal} className="fa-solid fa-xmark"></i>  {/* react icon */}
         </div>
         {/* message */}
         <div className="booking-modal__message">

@@ -11,23 +11,23 @@ function Contact() {
             <div className="contact-div__text">
               <h2>Need additional information?</h2>
               <p>
-                A multifaceted professional skilled in multiple fields of
-                research, development as well as a learning specialist. Over 15
-                years of experience.
+              Get in touch with us for inquiries, bookings, support or request more car models. We're here to assist you with all your car rental needs.
               </p>
               <a href="/">
-                <i className="fa-solid fa-phone"></i>&nbsp; (123) 456-7869
+                <i className="fa-solid fa-phone"></i>&nbsp; (+91) 8527454525
               </a>
               <a href="/">
                 <i className="fa-solid fa-envelope"></i>&nbsp;
                 carrental@xyz.com
               </a>
               <a href="/">
-                <i className="fa-solid fa-location-dot"></i>&nbsp; Bengaluru,
-                Karnatka
+                <i className="fa-solid fa-location-dot"></i>&nbsp; Noida,
+                Uttar Pradesh | (NCR)
               </a>
             </div>
             <div className="contact-div__form">
+
+              {/* // Make this astriks ( * ) working. */}
               <form>
                 <label>
                   Full Name <b>*</b>
@@ -56,10 +56,10 @@ function Contact() {
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+              <h2>Car booking is just a call away</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
-                <h3>(123) 456-7869</h3>
+                <h3>(+91) 8527454525</h3>
               </span>
             </div>
           </div>

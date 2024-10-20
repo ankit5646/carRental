@@ -12,7 +12,9 @@ function Navbar() {
   return (
     <>
       <nav>
+
         {/* mobile */}
+
         <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
           <div onClick={openNav} className="mobile-navbar__close">
             <i className="fa-solid fa-xmark"></i>
@@ -40,7 +42,8 @@ function Navbar() {
             </li>
             <li>
               <Link onClick={openNav} to="/team">
-                Our Team
+              {/* need correction */}
+                Our Team 
               </Link>
             </li>
             <li>
@@ -52,6 +55,7 @@ function Navbar() {
         </div>
 
         {/* desktop */}
+        
 
         <div className="navbar">
           <div className="navbar__img">

@@ -20,7 +20,7 @@ function ChooseUs() {
                 <h2>Best valued deals you will ever find</h2>
                 <p>
                   Discover the best deals you'll ever find with our unbeatable
-                  offers. We're dedicated to providing you with the best value
+                  offers and price match guarantee. We're dedicated to providing you with the best value
                   for your money, so you can enjoy top-quality services and
                   products without breaking the bank. Our deals are designed to
                   give you the ultimate renting experience, so don't miss out on
@@ -28,17 +28,17 @@ function ChooseUs() {
                 </p>
                 <a href="#home">
                   Find Details &nbsp;
-                  <i className="fa-solid fa-angle-right"></i>
+                  <i className="fa-solid fa-angle-right"></i>  {/* react icon */}
                 </a>
               </div>
               <div className="text-container__right">
                 <div className="text-container__right__box">
                   <img src={Box1} alt="car-img" />
                   <div className="text-container__right__box__text">
-                    <h4>Cross Country Drive</h4>
+                    <h4>Cross State Drive</h4>
                     <p>
                       Take your driving experience to the next level with our
-                      top-notch vehicles for your cross-country adventures.
+                      top-notch vehicles for your cross-State adventures.
                     </p>
                   </div>
                 </div>
