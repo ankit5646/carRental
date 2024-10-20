@@ -31,7 +31,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$45</h4>
+                      <h4>₹4500</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -74,7 +74,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$37</h4>
+                      <h4>₹3700</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -117,7 +117,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$30</h4>
+                      <h4>₹3000</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -152,15 +152,16 @@ function Models() {
                     <div className="models-div__box__descr__name-price__name">
                       <p>BMW 320</p>
                       <span>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
+                      
+                        <i className="fa-solid fa-star"></i>    {/* react-icon */}
+                        <i className="fa-solid fa-star"></i>   {/* react-icon */}
+                        <i className="fa-solid fa-star"></i>   {/* react-icon */}
+                        <i className="fa-solid fa-star"></i>   {/* react-icon */}
+                        <i className="fa-solid fa-star"></i>   {/* react-icon */}
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$35</h4>
+                      <h4>₹3500</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -203,7 +204,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$50</h4>
+                      <h4>₹5000</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -246,7 +247,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$25</h4>
+                      <h4>₹2500</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -281,7 +282,7 @@ function Models() {
               <h2>Book a car by getting in touch with us</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
-                <h3>(123) 456-7869</h3>
+                <h3>(+91) 8527454525</h3>
               </span>
             </div>
           </div>
