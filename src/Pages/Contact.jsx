@@ -1,9 +1,11 @@
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
+import Navbar from "../components/Navbar";
 
 function Contact() {
   return (
     <>
+      <Navbar />
       <section className="contact-page">
         <HeroPages name="Contact" />
         <div className="container">

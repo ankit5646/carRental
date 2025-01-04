@@ -1,10 +1,12 @@
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
+import Navbar from "../components/Navbar";
 import Testimonials from "../components/Testimonials";
 
 function TestimonialsPage() {
   return (
     <>
+      <Navbar />
       <section className="testimonial-page">
         <HeroPages name="Testimonials" />
         <Testimonials />

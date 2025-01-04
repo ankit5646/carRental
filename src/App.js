@@ -7,13 +7,17 @@ import Models from "./Pages/Models";
 import TestimonialsPage from "./Pages/TestimonialsPage";
 import Team from "./Pages/Team";
 import Contact from "./Pages/Contact";
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
 
 function App() {
   return (
     <>
-      <Navbar />
+     
       <Routes>
         <Route index path="/" element={<Home />} />
+        <Route path="login" element={<Login/> } />
+        <Route path="register" element={<Register/> } />
         <Route path="about" element={<About />} />
         <Route path="models" element={<Models />} />
         <Route path="testimonials" element={<TestimonialsPage />} />
